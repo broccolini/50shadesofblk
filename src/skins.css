@@ -1,0 +1,135 @@
+
+/* Default black */
+
+/* Colors */
+.black0 { color: var(--black0); }
+.black1 { color: var(--black1); }
+.black2 { color: var(--black2); }
+.black3 { color: var(--black3); }
+.black4 { color: var(--black4); }
+.black5 { color: var(--black5); }
+.black6 { color: var(--black6); }
+.black7 { color: var(--black7); }
+.black8 { color: var(--black8); }
+.black9 { color: var(--black9); }
+
+.bg-black0 { background-color: var(--black0); }
+.bg-black1 { background-color: var(--black1); }
+.bg-black2 { background-color: var(--black2); }
+.bg-black3 { background-color: var(--black3); }
+.bg-black4 { background-color: var(--black4); }
+.bg-black5 { background-color: var(--black5); }
+.bg-black6 { background-color: var(--black6); }
+.bg-black7 { background-color: var(--black7); }
+.bg-black8 { background-color: var(--black8); }
+.bg-black9 { background-color: var(--black9); }
+
+.material-black0 { color: var(--material-black0); }
+.material-black1 { color: var(--material-black1); }
+.material-black2 { color: var(--material-black2); }
+.material-black3 { color: var(--material-black3); }
+.material-black4 { color: var(--material-black4); }
+.material-black5 { color: var(--material-black5); }
+.material-black6 { color: var(--material-black6); }
+.material-black7 { color: var(--material-black7); }
+.material-black8 { color: var(--material-black8); }
+.material-black9 { color: var(--material-black9); }
+
+.bg-material-black0 { background-color: var(--material-black0); }
+.bg-material-black1 { background-color: var(--material-black1); }
+.bg-material-black2 { background-color: var(--material-black2); }
+.bg-material-black3 { background-color: var(--material-black3); }
+.bg-material-black4 { background-color: var(--material-black4); }
+.bg-material-black5 { background-color: var(--material-black5); }
+.bg-material-black6 { background-color: var(--material-black6); }
+.bg-material-black7 { background-color: var(--material-black7); }
+.bg-material-black8 { background-color: var(--material-black8); }
+.bg-material-black9 { background-color: var(--material-black9); }
+
+.munsell-black0 { color: var(--munsell-black0); }
+.munsell-black1 { color: var(--munsell-black1); }
+.munsell-black2 { color: var(--munsell-black2); }
+.munsell-black3 { color: var(--munsell-black3); }
+.munsell-black4 { color: var(--munsell-black4); }
+.munsell-black5 { color: var(--munsell-black5); }
+.munsell-black6 { color: var(--munsell-black6); }
+.munsell-black7 { color: var(--munsell-black7); }
+.munsell-black8 { color: var(--munsell-black8); }
+.munsell-black9 { color: var(--munsell-black9); }
+
+.bg-munsell-black0 { background-color: var(--munsell-black0); }
+.bg-munsell-black1 { background-color: var(--munsell-black1); }
+.bg-munsell-black2 { background-color: var(--munsell-black2); }
+.bg-munsell-black3 { background-color: var(--munsell-black3); }
+.bg-munsell-black4 { background-color: var(--munsell-black4); }
+.bg-munsell-black5 { background-color: var(--munsell-black5); }
+.bg-munsell-black6 { background-color: var(--munsell-black6); }
+.bg-munsell-black7 { background-color: var(--munsell-black7); }
+.bg-munsell-black8 { background-color: var(--munsell-black8); }
+.bg-munsell-black9 { background-color: var(--munsell-black9); }
+
+.doq-black0 { color: var(--doq-black0); }
+.doq-black1 { color: var(--doq-black1); }
+.doq-black2 { color: var(--doq-black2); }
+.doq-black3 { color: var(--doq-black3); }
+.doq-black4 { color: var(--doq-black4); }
+.doq-black5 { color: var(--doq-black5); }
+.doq-black6 { color: var(--doq-black6); }
+.doq-black7 { color: var(--doq-black7); }
+.doq-black8 { color: var(--doq-black8); }
+.doq-black9 { color: var(--doq-black9); }
+
+.bg-doq-black0 { background-color: var(--doq-black0); }
+.bg-doq-black1 { background-color: var(--doq-black1); }
+.bg-doq-black2 { background-color: var(--doq-black2); }
+.bg-doq-black3 { background-color: var(--doq-black3); }
+.bg-doq-black4 { background-color: var(--doq-black4); }
+.bg-doq-black5 { background-color: var(--doq-black5); }
+.bg-doq-black6 { background-color: var(--doq-black6); }
+.bg-doq-black7 { background-color: var(--doq-black7); }
+.bg-doq-black8 { background-color: var(--doq-black8); }
+.bg-doq-black9 { background-color: var(--doq-black9); }
+
+.kalish-black0 { color: var(--kalish-black0); }
+.kalish-black1 { color: var(--kalish-black1); }
+.kalish-black2 { color: var(--kalish-black2); }
+.kalish-black3 { color: var(--kalish-black3); }
+.kalish-black4 { color: var(--kalish-black4); }
+.kalish-black5 { color: var(--kalish-black5); }
+.kalish-black6 { color: var(--kalish-black6); }
+.kalish-black7 { color: var(--kalish-black7); }
+.kalish-black8 { color: var(--kalish-black8); }
+.kalish-black9 { color: var(--kalish-black9); }
+
+.bg-kalish-black0 { background-color: var(--kalish-black0); }
+.bg-kalish-black1 { background-color: var(--kalish-black1); }
+.bg-kalish-black2 { background-color: var(--kalish-black2); }
+.bg-kalish-black3 { background-color: var(--kalish-black3); }
+.bg-kalish-black4 { background-color: var(--kalish-black4); }
+.bg-kalish-black5 { background-color: var(--kalish-black5); }
+.bg-kalish-black6 { background-color: var(--kalish-black6); }
+.bg-kalish-black7 { background-color: var(--kalish-black7); }
+.bg-kalish-black8 { background-color: var(--kalish-black8); }
+.bg-kalish-black9 { background-color: var(--kalish-black9); }
+
+.vantablack0 { color: var(--vantablack0); }
+.vantablack1 { color: var(--vantablack1); }
+.vantablack2 { color: var(--vantablack2); }
+.vantablack3 { color: var(--vantablack3); }
+.vantablack4 { color: var(--vantablack4); }
+.vantablack5 { color: var(--vantablack5); }
+.vantablack6 { color: var(--vantablack6); }
+.vantablack7 { color: var(--vantablack7); }
+.vantablack8 { color: var(--vantablack8); }
+.vantablack9 { color: var(--vantablack9); }
+
+.bg-vantablack0 { background-color: var(--vantablack0); }
+.bg-vantablack1 { background-color: var(--vantablack1); }
+.bg-vantablack2 { background-color: var(--vantablack2); }
+.bg-vantablack3 { background-color: var(--vantablack3); }
+.bg-vantablack4 { background-color: var(--vantablack4); }
+.bg-vantablack5 { background-color: var(--vantablack5); }
+.bg-vantablack6 { background-color: var(--vantablack6); }
+.bg-vantablack7 { background-color: var(--vantablack7); }
+.bg-vantablack8 { background-color: var(--vantablack8); }
+.bg-vantablack9 { background-color: var(--vantablack9); }

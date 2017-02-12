@@ -1,0 +1,94 @@
+/*
+- Default
+- Material
+- Munsell
+- Crayola
+- 4 bit, 16 bit
+- Pantone
+- CMYK?
+- Adobe
+- Fuligin: "the color that is darker than black"
+- Hat black: blue-black
+- Kalish: Klingon, for almost black (purple-black)
+- Klingon, Doq-black: http://www.klingonwiki.net/En/Colors
+- Palx: https://palx.jxnblk.com/
+
+*/
+
+:root {
+
+/* Default */
+--black0:  #000000;
+--black1:  #333333;
+--black2:  #4d4d4d;
+--black3:  #666666;
+--black4:  #7e7e7e;
+--black5:  #999999;
+--black6:  #b2b2b2;
+--black7:  #cccccc;
+--black8:  #e5e5e5;
+--black9:  #fafafa;
+
+/* Material */
+--material-black0:  #212121;
+--material-black1:  #424242;
+--material-black2:  #616161;
+--material-black3:  #757575;
+--material-black4:  #9E9E9E;
+--material-black5:  #BDBDBD;
+--material-black6:  #E0E0E0;
+--material-black7:  #EEEEEE;
+--material-black8:  #F5F5F5;
+--material-black9:  #FAFAFA;
+
+/* Munsell */
+--munsell-black0:  #1c1c1c;
+--munsell-black1:  #303030;
+--munsell-black2:  #464646;
+--munsell-black3:  #616161;
+--munsell-black4:  #7c7c7c;
+--munsell-black5:  #969696;
+--munsell-black6:  #b3b3b3;
+--munsell-black7:  #cbcbcb;
+--munsell-black8:  #e8e8e8;
+--munsell-black9:  #fafafa;
+
+/* Doq-black */
+--doq-black0:  #221e1c;
+--doq-black1:  #443b38;
+--doq-black2:  #5a4e4a;
+--doq-black3:  #464646;
+--doq-black4:  #70615c;
+--doq-black5:  #86746d;
+--doq-black6:  #a99b96;
+--doq-black7:  #bbb0ac;
+--doq-black8:  #dcd7d5;
+--doq-black9:  #eceae9;
+/*--doq-black10: #faf9f9;*/
+
+/* Kalish-black */
+--kalish-black0:  #17151c;
+--kalish-black1:  #27242c;
+--kalish-black2:  #3c3844;
+--kalish-black3:  #645e6f;
+--kalish-black4:  #625c70;
+--kalish-black5:  #7c758a;
+--kalish-black6:  #9d97a7;
+--kalish-black7:  #bab6c1;
+--kalish-black8:  #cbc8d1;
+--kalish-black9:  #eae9ec;
+/*--doq-black10: #f8f8f9;*/
+
+/* Vantablack */
+--vantablack0:  #0b0c0e;
+--vantablack1:  #16181d;
+--vantablack2:  #23272e;
+--vantablack3:  #343a45;
+--vantablack4:  #454d5c;
+--vantablack5:  #576174;
+--vantablack6:  #79849a;
+--vantablack7:  #a6aebc;
+--vantablack8:  #c6cbd4;
+--vantablack9:  #ebedf0;
+
+}
