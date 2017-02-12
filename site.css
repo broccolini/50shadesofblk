@@ -1,0 +1,14 @@
+* {
+ box-sizing: border-box !important;
+ margin: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.chip { height: 156px; }
+
+.text-mono { font-family: Menlo, Consolas, Liberation Mono, monospace;}
