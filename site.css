@@ -17,3 +17,7 @@ body {
 }
 
 .capitalize { text-transform: capitalize; }
+
+a { color: black; }
+
+a:hover { color: blue; }
