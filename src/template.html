@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<% Object.keys(palettes).forEach(function (key) { %>
+ <div>
+   <h2><%= key %></h2>
+   <% palettes[key].forEach(function (hex, i) { %>
+     <div style="color: <%= getTextColor(hex, key) %>; background-color:#<%= hex %>">
+       <p class="text-mono">#<%= hex %></p>
+     </div>
+   <% }) %>
+ </div>
+<% }) %>

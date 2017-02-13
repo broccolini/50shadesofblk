@@ -1,0 +1,29 @@
+{
+  "name": "50shadesofblk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node src/createcss.js",
+    "html": "node src/createsite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broccolini/50shadesofblk.git"
+  },
+  "keywords": [
+    "colors",
+    "palettes",
+    "css"
+  ],
+  "author": "Diana Mounter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broccolini/50shadesofblk/issues"
+  },
+  "homepage": "https://github.com/broccolini/50shadesofblk#readme",
+  "devDependencies": {
+    "chroma-js": "^1.2.2",
+    "lodash": "^4.17.4"
+  }
+}
