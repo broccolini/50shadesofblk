@@ -10,24 +10,26 @@
     <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="site.css">
   </head>
-  <body class="p2">
+  <body>
 
-    <header class="p2">
+    <header class="px3 pt3">
       <h1 class="white">50 shades of black</h1>
     </header>
 
-    <section class="flex flex-wrap mxn3 p2">
+    <section class="p3">
 
-      <% Object.keys(palettes).forEach(function (key) { %>
-       <div class="col-4 p3">
-         <h2 class="capitalize"><%= key %></h2>
-         <% palettes[key].forEach(function (hex, i) { %>
-           <div class="p2" style="color: <%= getTextColor(hex, key) %>; background-color:#<%= hex %>">
-             <code class="code">#<%= hex %></code>
-           </div>
-         <% }) %>
-       </div>
-      <% }) %>
+      <div class="flex flex-wrap mxn2">
+        <% Object.keys(palettes).forEach(function (key) { %>
+         <div class="col-12 sm-col-6 md-col-4 p2">
+           <h2 class="capitalize"><%= key %></h2>
+           <% palettes[key].forEach(function (hex, i) { %>
+             <div class="p2" style="color: <%= getTextColor(hex, key) %>; background-color:#<%= hex %>">
+               <code class="code">#<%= hex %></code>
+             </div>
+           <% }) %>
+         </div>
+        <% }) %>
+      </div>
 
     </section>
 
