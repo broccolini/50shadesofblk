@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<% Object.keys(palettes).forEach(function (key) { %>
- <div>
-   <h2><%= key %></h2>
-   <% palettes[key].forEach(function (hex, i) { %>
-     <div style="color: <%= getTextColor(hex, key) %>; background-color:#<%= hex %>">
-       <p class="text-mono">#<%= hex %></p>
-     </div>
-   <% }) %>
- </div>
-<% }) %>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>50 Shades of Black</title>
+    <meta name="author" content="broccolini">
+    <meta name="description" content="Every type of black you could wish for. Download as CSS or SCSS.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body class="p2">
+
+    <header class="p2">
+      <h1 class="white">50 shades of black</h1>
+    </header>
+
+    <section class="flex flex-wrap mxn3 p2">
+
+      <% Object.keys(palettes).forEach(function (key) { %>
+       <div class="col-4 p3">
+         <h2 class="capitalize"><%= key %></h2>
+         <% palettes[key].forEach(function (hex, i) { %>
+           <div class="p2" style="color: <%= getTextColor(hex, key) %>; background-color:#<%= hex %>">
+             <code class="code">#<%= hex %></code>
+           </div>
+         <% }) %>
+       </div>
+      <% }) %>
+
+    </section>
+
+</body>
