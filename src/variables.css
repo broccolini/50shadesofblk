@@ -7,88 +7,89 @@
 - Pantone
 - CMYK?
 - Adobe
-- Fuligin: "the color that is darker than black"
+- Fuligin: "the color that is darker than black": https://en.wikipedia.org/wiki/List_of_fictional_colors
 - Hat black: blue-black
 - Kalish: Klingon, for almost black (purple-black)
 - Klingon, Doq-black: http://www.klingonwiki.net/En/Colors
 - Palx: https://palx.jxnblk.com/
+- Vantablack: https://en.wikipedia.org/wiki/Vantablack
 
 */
 
 :root {
-
-/* Default */
 --black0:  #000000;
---black1:  #333333;
---black2:  #4d4d4d;
---black3:  #666666;
+--black1:  #222222;
+--black2:  #404040;
+--black3:  #5e5e5e;
 --black4:  #7e7e7e;
 --black5:  #999999;
 --black6:  #b2b2b2;
 --black7:  #cccccc;
 --black8:  #e5e5e5;
 --black9:  #fafafa;
+}
 
-/* Material */
---material-black0:  #212121;
---material-black1:  #424242;
---material-black2:  #616161;
---material-black3:  #757575;
---material-black4:  #9E9E9E;
---material-black5:  #BDBDBD;
---material-black6:  #E0E0E0;
---material-black7:  #EEEEEE;
---material-black8:  #F5F5F5;
---material-black9:  #FAFAFA;
+.material {
+--black0:  #212121;
+--black1:  #424242;
+--black2:  #616161;
+--black3:  #757575;
+--black4:  #9E9E9E;
+--black5:  #BDBDBD;
+--black6:  #E0E0E0;
+--black7:  #EEEEEE;
+--black8:  #F5F5F5;
+--black9:  #FAFAFA;
+}
 
-/* Munsell */
---munsell-black0:  #1c1c1c;
---munsell-black1:  #303030;
---munsell-black2:  #464646;
---munsell-black3:  #616161;
---munsell-black4:  #7c7c7c;
---munsell-black5:  #969696;
---munsell-black6:  #b3b3b3;
---munsell-black7:  #cbcbcb;
---munsell-black8:  #e8e8e8;
---munsell-black9:  #fafafa;
+.munsell {
+--black0:  #1c1c1c;
+--black1:  #303030;
+--black2:  #464646;
+--black3:  #616161;
+--black4:  #7c7c7c;
+--black5:  #969696;
+--black6:  #b3b3b3;
+--black7:  #cbcbcb;
+--black8:  #e8e8e8;
+--black9:  #fafafa;
+}
 
-/* Doq-black */
---doq-black0:  #221e1c;
---doq-black1:  #443b38;
---doq-black2:  #5a4e4a;
---doq-black3:  #464646;
---doq-black4:  #70615c;
---doq-black5:  #86746d;
---doq-black6:  #a99b96;
---doq-black7:  #bbb0ac;
---doq-black8:  #dcd7d5;
---doq-black9:  #eceae9;
-/*--doq-black10: #faf9f9;*/
+.doq {
+--black0:  #160504;
+--black1:  #271f1f;
+--black2:  #423c3c;
+--black3:  #5f5959;
+--black4:  #7f7979;
+--black5:  #9d9797;
+--black6:  #c1bcbc;
+--black7:  #e0dddd;
+--black8:  #f2efef;
+--black9:  #fbf9f8;
+}
 
-/* Kalish-black */
---kalish-black0:  #17151c;
---kalish-black1:  #27242c;
---kalish-black2:  #3c3844;
---kalish-black3:  #645e6f;
---kalish-black4:  #625c70;
---kalish-black5:  #7c758a;
---kalish-black6:  #9d97a7;
---kalish-black7:  #bab6c1;
---kalish-black8:  #cbc8d1;
---kalish-black9:  #eae9ec;
-/*--doq-black10: #f8f8f9;*/
+.kalish {
+--black0:  #17151c;
+--black1:  #26242c;
+--black2:  #3c3943;
+--black3:  #4e4b57;
+--black4:  #64606d;
+--black5:  #85818e;
+--black6:  #a09da9;
+--black7:  #c8c5ce;
+--black8:  #e3e2e7;
+--black9:  #f9f9fa;
+}
 
-/* Vantablack */
+.vantablack {
 --vantablack0:  #0b0c0e;
 --vantablack1:  #16181d;
---vantablack2:  #23272e;
---vantablack3:  #343a45;
---vantablack4:  #454d5c;
---vantablack5:  #576174;
---vantablack6:  #79849a;
---vantablack7:  #a6aebc;
---vantablack8:  #c6cbd4;
---vantablack9:  #ebedf0;
-
+--vantablack2:  #24272d;
+--vantablack3:  #363a43;
+--vantablack4:  #484e59;
+--vantablack5:  #5d636e;
+--vantablack6:  #818792;
+--vantablack7:  #a3a7af;
+--vantablack8:  #c7cacf;
+--vantablack9:  #ecedef;
 }
