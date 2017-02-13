@@ -11,4 +11,9 @@ body {
 
 .chip { height: 156px; }
 
-.text-mono { font-family: Menlo, Consolas, Liberation Mono, monospace;}
+.code {
+  font-family: Menlo, Consolas, Liberation Mono, monospace;
+  text-transform: uppercase;
+}
+
+.capitalize { text-transform: capitalize; }
