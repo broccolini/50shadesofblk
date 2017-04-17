@@ -1,0 +1,21 @@
+{
+  "name": "thenewblk-scss",
+  "version": "1.0.0",
+  "description": "The new blk scss modules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broccolini/50shadesofblk.git"
+  },
+  "keywords": [
+    "colors",
+    "palettes",
+    "css"
+  ],
+  "author": "Diana Mounter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/broccolini/50shadesofblk/issues"
+  },
+  "homepage": "https://github.com/broccolini/50shadesofblk#readme"
+}
