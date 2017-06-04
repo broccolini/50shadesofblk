@@ -1,6 +1,6 @@
 {
   "name": "thenewblk-scss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The new blk scss modules",
   "main": "index.js",
   "repository": "https://github.com/broccolini/50shadesofblk/tree/master/packages/thenewblk-scss",
