@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "updated": "lerna updated",
     "css": "node src/createcss.js",
     "html": "node src/createsite.js"
   },
@@ -24,6 +27,7 @@
   "homepage": "https://github.com/broccolini/50shadesofblk#readme",
   "devDependencies": {
     "chroma-js": "^1.2.2",
+    "lerna": "^2.0.0-rc.2",
     "lodash": "^4.17.4"
   }
 }
