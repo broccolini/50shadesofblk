@@ -3,10 +3,7 @@
   "version": "1.0.1",
   "description": "The new blk css modules",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/broccolini/50shadesofblk.git"
-  },
+  "repository": "https://github.com/broccolini/50shadesofblk/tree/master/packages/thenewblk-scss",
   "keywords": [
     "colors",
     "palettes",
