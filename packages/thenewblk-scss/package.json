@@ -1,4 +1,4 @@
-{
+cdcd{
   "name": "thenewblk-scss",
   "version": "1.0.2",
   "description": "The new blk scss modules",
@@ -7,7 +7,8 @@
   "keywords": [
     "colors",
     "palettes",
-    "css"
+    "css",
+    "scss"
   ],
   "author": "Diana Mounter",
   "license": "ISC",
