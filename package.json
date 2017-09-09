@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish",
-    "updated": "lerna updated",
     "css": "node src/createcss.js",
     "html": "node src/createsite.js"
   },
